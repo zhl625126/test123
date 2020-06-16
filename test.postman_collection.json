@@ -1,0 +1,226 @@
+{
+	"info": {
+		"_postman_id": "d7182456-80e8-4938-8a7f-ea2c5206f57d",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "10.8.0.100:18000/bap/user_roles/application",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Charset",
+						"value": "application/octet-stream",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [],
+					"options": {
+						"raw": {
+							"language": "javascript"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.8.0.100:18000/bap/user_roles/application",
+					"host": [
+						"10",
+						"8",
+						"0",
+						"100"
+					],
+					"port": "18000",
+					"path": [
+						"bap",
+						"user_roles",
+						"application"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10.8.0.100:18000/bap/users/neo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Charset",
+						"value": "application/octet-stream",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "javascript"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.8.0.100:18000/bap/users/neo",
+					"host": [
+						"10",
+						"8",
+						"0",
+						"100"
+					],
+					"port": "18000",
+					"path": [
+						"bap",
+						"users",
+						"neo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10.8.0.100:18000/bap/users/1231",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Charset",
+						"value": "application/octet-stream",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "javascript"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.8.0.100:18000/bap/users/1231",
+					"host": [
+						"10",
+						"8",
+						"0",
+						"100"
+					],
+					"port": "18000",
+					"path": [
+						"bap",
+						"users",
+						"1231"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://10.8.0.55:18000/bap/identities/001/enroll_image",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://10.8.0.55:18000/bap/identities/001/enroll_image",
+					"protocol": "http",
+					"host": [
+						"10",
+						"8",
+						"0",
+						"55"
+					],
+					"port": "18000",
+					"path": [
+						"bap",
+						"identities",
+						"001",
+						"enroll_image"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
